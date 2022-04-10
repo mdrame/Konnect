@@ -18,11 +18,11 @@ contract BankAccountSimulator {
     }
 }
 
-contract simpleStorage {
-    simpleStorage[] public simulatorChain;
+// contract simpleStorage {
+//     simpleStorage[] public simulatorChain;
 
-    function processTransaction() public {
-        simpleStorage newTransaction = new BankAccountSimulator();
-        simulatorChain.push(newTransaction);
-    }
-}
+//     function processTransaction() public {
+//         simpleStorage newTransaction = new BankAccountSimulator();
+//         simulatorChain.push(newTransaction);
+//     }
+// }
