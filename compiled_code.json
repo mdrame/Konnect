@@ -1,0 +1,55 @@
+{
+    "contracts": {
+        "konnect.sol": {
+            "BankAccountSimulator": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "name": "currentBalance",
+                        "outputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "",
+                                "type": "uint256"
+                            }
+                        ],
+                        "stateMutability": "view",
+                        "type": "function"
+                    },
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "amount",
+                                "type": "uint256"
+                            }
+                        ],
+                        "name": "makeDeposite",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    },
+                    {
+                        "inputs": [
+                            {
+                                "internalType": "uint256",
+                                "name": "amount",
+                                "type": "uint256"
+                            }
+                        ],
+                        "name": "makeWithdraw",
+                        "outputs": [],
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"currentBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"makeDeposite\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"makeWithdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"konnect.sol\":\"BankAccountSimulator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"konnect.sol\":{\"keccak256\":\"0x5dd1b9070aadf6aad97b5c1bc4638ad8270a489fccde8f42b61bf8322777ead5\",\"urls\":[\"bzz-raw://58aa1e41a494fabd921ba0c8562f6d51d79d4edefe69319eaf32a111ff638da7\",\"dweb:/ipfs/QmQ7G7StmqZw43bJeXSwaEynudmd1emqcX43wRvc6SAV3i\"]}},\"version\":1}"
+            }
+        }
+    },
+    "sources": {
+        "konnect.sol": {
+            "id": 0
+        }
+    }
+}
